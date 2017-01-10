@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b_g_gradient"
+    tools:context="kr.pe.junho85.trekit.SplashActivity">
+
+
+    <ImageView
+        android:layout_width="85.3dp"
+        android:layout_height="85.3dp"
+        app:srcCompat="@drawable/icon"
+        android:id="@+id/logo_image_view"
+        android:layout_marginTop="139.7dp"
+        android:layout_marginLeft="137.3dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@drawable/trek_it"-->
+        <!--android:layout_marginLeft="104dp"-->
+        <!--android:layout_marginTop="16.3dp"-->
+        <!--android:id="@+id/title_image_view"-->
+        <!--android:layout_below="@+id/logo_image_view"-->
+        <!--android:layout_centerHorizontal="true"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="241.3dp"
+        android:id="@+id/title_text_view"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/map"
+        android:id="@+id/map_image_view"
+        android:scaleType="fitCenter"
+        />
+</RelativeLayout>
