@@ -6,9 +6,9 @@
     android:id="@+id/activity_splash"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/b_g_gradient"
-    tools:context="kr.pe.junho85.trekit.SplashActivity">
-
+    android:background="@drawable/gradient_background"
+    tools:context="kr.pe.junho85.trekit.SplashActivity"
+    >
 
     <ImageView
         android:layout_width="85.3dp"
@@ -20,15 +20,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"/>
 
-    <!--<ImageView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--app:srcCompat="@drawable/trek_it"-->
-        <!--android:layout_marginLeft="104dp"-->
-        <!--android:layout_marginTop="16.3dp"-->
-        <!--android:id="@+id/title_image_view"-->
-        <!--android:layout_below="@+id/logo_image_view"-->
-        <!--android:layout_centerHorizontal="true"/>-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,7 +29,6 @@
         android:layout_centerHorizontal="true"
         />
 
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,4 +37,5 @@
         android:id="@+id/map_image_view"
         android:scaleType="fitCenter"
         />
+
 </RelativeLayout>
